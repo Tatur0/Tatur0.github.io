@@ -15,14 +15,14 @@ body {
 
 header {
     background-color: rgb(27, 27, 27);
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 20px 10px 10px 10px;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid rgb(255, 255, 255);
 }
 
 .card {
     margin: 1rem;
-    box-shadow: rgba(0, 0, 0, 0.54) 5px 10px 10px;
+    box-shadow: rgba(0, 0, 0, 1) 5px 10px 10px;
     height: 200px;
 }
 
@@ -34,18 +34,15 @@ header {
     width: 100%;
 }
 
-.img-container {
-    position: absolute;
-    z-index: 1;
-}
-
 .main-container {
-    z-index: 3;
-    position: relative;
+    background-image: url("assets/1.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    height: 1080px;
 }
 
-.slideshow-container {
-    position: relative;
-    z-index: 10;
+.carousel {
+    margin: 10%;
+    border: 1px solid white;
 }
-
