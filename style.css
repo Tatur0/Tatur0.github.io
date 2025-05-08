@@ -1,0 +1,51 @@
+@font-face {
+    font-family: FleshAndBlood;
+    src: url("./assets/flesh-and-blood-font/Fleshandblood-MVA5x.ttf")
+}
+
+* {
+    font-family: FleshAndBlood;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(27, 27, 27);
+}
+
+header {
+    background-color: rgb(27, 27, 27);
+    color: white;
+    padding: 20px 10px 10px 10px;
+    border-bottom: 2px solid white;
+}
+
+.card {
+    margin: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.54) 5px 10px 10px;
+    height: 200px;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.background {
+    max-width: 100%;
+}
+
+.img-container {
+    position: absolute;
+    z-index: 1;
+}
+
+.main-container {
+    z-index: 3;
+    position: relative;
+}
+
+.slideshow-container {
+    position: relative;
+    z-index: 10;
+}
+
