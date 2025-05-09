@@ -23,7 +23,7 @@ header {
 .card {
     margin: 1rem;
     box-shadow: rgba(0, 0, 0, 1) 5px 10px 10px;
-    height: 200px;
+    height: auto;
 }
 
 .w-40 {
@@ -34,7 +34,7 @@ header {
     width: 100%;
 }
 
-.main-container {
+.img-container {
     background-image: url("assets/1.png");
     background-repeat: no-repeat;
     background-size: auto;
@@ -43,6 +43,30 @@ header {
 }
 
 .carousel {
-    margin: 10%;
+    margin: 1% 10% 5% 10%;
     border: 1px solid white;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.otsikko {
+    padding-top: 1rem;
+    color: white;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    
+    li {
+        padding: 0px 10px;
+    }
+}
+
+.nav-link {
+    scroll-behavior: smooth !important; 
 }
