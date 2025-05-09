@@ -67,6 +67,11 @@ header {
     }
 }
 
+.bg-dark {
+    background-color: rgb(27, 27, 27) !important;
+}
+
 .nav-link {
     scroll-behavior: smooth !important; 
+    color: white;
 }
