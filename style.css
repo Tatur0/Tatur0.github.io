@@ -9,7 +9,13 @@
     --text-hover: #b9b9b9;
 }
 
-h1,h2,h3,h4,p,li, a {
+h1,
+h2,
+h3,
+h4,
+p,
+li,
+a {
     color: var(--text);
 }
 
@@ -103,8 +109,10 @@ header {
     border-radius: 4px;
     border: none;
     display: block;
-    -ms-overflow-style: none; /* IE & Edge */
-    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;
+    /* IE & Edge */
+    scrollbar-width: none;
+    /* Firefox */
 }
 
 .iframe-container {
@@ -116,10 +124,16 @@ header {
     font-weight: bold;
 }
 
-.project-text a {
+.project-links {
     position: absolute;
     bottom: 0;
-    margin-bottom: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 0.2rem;
+    border-top: var(--primary) 2px solid;
+}
+
+.project-links a {
+    color: #e0e0e0;
 }
 
 .bi.bi-envelope,
