@@ -1,0 +1,149 @@
+:root {
+    --primary: #659fe0;
+    --primary-hover: #7eb1ec;
+    --background: #121212;
+    --background2: #1f1f1f;
+    --background3: #181818;
+    --background4: #3d3d3d;
+    --text: #e0e0e0;
+    --text-hover: #b9b9b9;
+}
+
+h1,h2,h3,h4,p,li, a {
+    color: var(--text);
+}
+
+body {
+    background-color: var(--background);
+}
+
+nav {
+    background-color: var(--background) !important;
+}
+
+header {
+    position: sticky;
+    top: 2px;
+}
+
+.nav-item {
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.nav-link {
+    color: var(--text);
+}
+
+.main-card {
+    background-color: var(--background3);
+}
+
+.section-card {
+    background-color: var(--background2);
+}
+
+.section-heading {
+    text-align: center;
+    color: var(--primary);
+}
+
+.form-input {
+    margin: auto;
+    width: 40%;
+    max-width: 25rem;
+    background-color: var(--background4);
+    color: white;
+    border-radius: 2px;
+    margin: 5px auto;
+    border: none;
+    padding: 4px;
+}
+
+.form-input::placeholder {
+    color: white;
+    font-weight: 600;
+}
+
+.contact-form button {
+    background-color: var(--primary);
+    width: 25%;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.contact-form button:hover {
+    transition: linear 200ms;
+    background-color: #7eb1ec;
+}
+
+.contact-form textarea {
+    resize: none;
+    height: 7rem;
+}
+
+.about img {
+    width: 25%;
+    height: 25%;
+    border-radius: 50%;
+}
+
+.about p {
+    text-align: center;
+}
+
+.project-card {
+    background-color: #3d3d3d;
+}
+
+.project-card iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    border: none;
+    display: block;
+    -ms-overflow-style: none; /* IE & Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+.iframe-container {
+    height: 500px;
+    overflow: hidden;
+}
+
+.project-text h1 {
+    font-weight: bold;
+}
+
+.project-text a {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 1rem;
+}
+
+.bi.bi-envelope,
+.bi.bi-github {
+    font-size: 2rem;
+    color: var(--text);
+}
+
+.bi.bi-envelope:hover,
+.bi.bi-github:hover {
+    color: var(--text-hover);
+}
+
+.bi.bi-arrow-up-square-fill {
+    color: var(--primary);
+    font-size: 3rem;
+}
+
+.bi.bi-arrow-up-square-fill:hover {
+    color: var(--primary-hover);
+}
+
+.icon-container {
+    max-width: 10rem;
+    border-bottom: var(--text) 2px solid;
+    margin-bottom: 2rem;
+}
